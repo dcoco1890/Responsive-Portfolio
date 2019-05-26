@@ -1,0 +1,279 @@
+h1, h2, h3, h4, p, form, header, section, footer, article,body {
+    margin: 0;
+    padding: 0;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer,p,form {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+html {
+    height: 100%;
+    
+}
+body {
+    height: 100%;
+    background-image:url("../images/pattern.png");
+    /* This is how I got the background image to be below the header. It starts 60 px from 
+    the top because the header is 60 px. With just repeat x it didnt fill the  page.*/
+    background-position: 0px 60px;
+    background-size: cover;
+    background-repeat: repeat-x;
+    
+    
+}
+
+
+header {
+    /* overflow keeps the h1 and nav from spilling or something. breaks without it so don't remove */
+    overflow: auto;
+    margin: auto auto;
+    max-width: 960px;
+    background-color: #ffffff;
+
+}
+h1 {
+    color: #ffffff;
+    position: relative;
+    padding: 12px 25px;
+    /* margin right might not be necessary*/
+    margin-right: 30px;
+    background-color: #4aaaa5;
+    float: left;
+}
+
+h1:hover{
+    background-color: hotpink;
+}
+
+h2 {
+    
+    padding: 10px 0 25px 0;
+    color: #4aaaa5;
+}
+
+h4 {
+    color: #ffffff;
+    padding:8px 40px;
+    background-color: #4aaaa5;
+    max-width: 100%;
+    text-align: center;
+    margin-top:100px;
+    border-radius: 9px;
+}
+h4:hover {
+    background-color: hotpink;
+}
+
+nav {
+    /* Starting it at the right 5 might not be necessary anymore, since i put it here to keep the text
+    from overflowing onto the background picture.*/
+    position: relative;
+    padding: 20px 0;
+    float: right;
+    right: 5px;
+}
+
+section{
+    max-height: 100%;
+    overflow: hidden;
+   
+}
+
+
+footer {
+    /*This footer sucks. If you resize the page and text flows after it, it will stay in place
+    while you scroll. Will work to fix but at least it's sticky*/
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+}
+
+a {
+    color:#cccccc;
+}
+a:hover {
+    color: hotpink;
+}
+
+p {
+    margin:5px;
+}
+
+
+#lineBr {
+    background-color: #cccccc;
+    height:2px;
+    margin-bottom: 30px;
+}
+#line {
+    background-color: #cccccc;
+    height:2px;
+    margin-bottom: 30px;
+}
+
+#bio-image {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 5px;
+}
+
+.main {
+    border: 2px solid #dddddd;
+    max-width: 920px;
+    height: 70%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding:25px 30px 70px 30px;
+}
+#ports {
+    padding:300px 450px;
+}
+    
+
+#one {
+    background-image: url(../images/port01.png);
+    background-size: 100%;
+    float: left;
+    height: 170px;
+    width: 260px;
+}
+#two {
+    background-image: url(../images/port04.png);
+    background-size: 100%;
+    position: relative;
+    
+    right:300px;
+    float: right;
+    height: 170px;
+    width: 260px;
+  
+}
+#three {
+    background-image: url(../images/port03.png);
+    background-size: 100%;
+    clear: both;
+    background-color: #666666;
+    float: left;
+    height: 170px;
+    width: 260px;
+   
+
+}
+
+#four {
+    background-image: url(../images/port02.png);
+    background-size: 100%;
+    position: relative;
+    float: right;
+    background-color: #666666;
+    right: 300px;
+    height: 170px;
+    width: 260px;
+    
+   
+
+}
+#five {
+    background-image: url(../images/port05.png);
+    background-size: 100%;
+    clear: both;
+    background-color: #666666;
+    float: left;
+    height: 170px;
+    width: 260px;
+    
+
+}
+article {
+  
+    overflow: auto;
+    margin:0 10px 30px 10px;
+    
+}
+label {
+    color: #666666;
+}
+
+#name {
+    width: 100%;
+    height: 2em;
+}
+
+#email {
+    width: 100%;
+    height: 2em;
+}
+#msg {
+    width: 100%;
+    height: 15em;
+    resize: none;
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+    
+    
+}
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 8px 35px;
+    border: none;
+    margin-top: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* New media tags */
+@media screen and (max-width: 980px) {
+    
+    body {
+      
+    }
+    .main {
+        float: left;
+        max-width: 80%;
+        padding-bottom: 25px;
+    }
+    h1{
+        float: left;
+    }
+    footer {
+        padding: 5px 0;
+    }
+  
+    }
+  }
+@media screen and (max-width: 768px) {
+    
+    body {
+      background-color: #300;
+    }
+
+    
+  
+    
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    
+    body {
+      background-color: #300;
+    }
+  
+    
+    
+  }

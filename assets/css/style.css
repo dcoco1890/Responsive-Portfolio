@@ -100,7 +100,9 @@ footer {
 }
 
 a {
-    color:#cccccc;
+    color:#999999;
+    text-decoration: none;
+    font-size: 15px;
 }
 a:hover {
     color: hotpink;
@@ -239,39 +241,131 @@ button {
 /* New media tags */
 @media screen and (max-width: 980px) {
     
+    header {
+        
+    }
     body {
       
     }
     .main {
         float: left;
-        max-width: 80%;
-        padding-bottom: 25px;
+        width: 60%;
+        padding-bottom: 50px;
+        margin-left: 15px;
     }
     h1{
-        float: left;
+        
     }
     footer {
         padding: 5px 0;
     }
-  
+    #one {
+        background-image: url(../images/port01.png);
+        background-size: 100%;
+        float: left;
+       
+        width: 180px;
     }
+    #two {
+        background-image: url(../images/port04.png);
+        background-size: 100%;
+        position: relative;
+        right:100px;
+        float: right;
+       
+        width: 180px;
+      
+    }
+    #three {
+        background-image: url(../images/port03.png);
+        background-size: 100%;
+        clear: both;
+        background-color: #666666;
+        float: left;
+        
+        width: 180px;
+       
+    
+    }
+    
+    #four {
+        background-image: url(../images/port02.png);
+        background-size: 100%;
+        position: relative;
+        float: right;
+        background-color: #666666;
+        right: 100px;
+       
+        width: 180px;
+        
+       
+    
+    }
+    #five {
+        background-image: url(../images/port05.png);
+        background-size: 100%;
+        clear: both;
+        background-color: #666666;
+        float: left;
+        
+        width: 180px;
+        
+    
+    }
+  
+    
   }
 @media screen and (max-width: 768px) {
     
-    body {
-      background-color: #300;
+    h2 {
+        padding: 0 0 5px 0;
     }
-
+    #lineBr{
+        margin-bottom:10px;
+    }
+    .main {
+        padding-bottom: 90px;
+        width:90%;
+        margin: 0 auto;
+    }
+    #one {
+        background-image: url(../images/port01.png);
+        
+        float: left;
+        height: 200px;
+        width: 250px;
+    }
+    #two {
+     
+        right:50px;
+      
+        height: 200px;
+        width: 250px;
+    }
+    #three {
+        height: 200px;
+        width: 250px;
+    }
+    
+    #four {
+        right: 50px;
+        height: 200px;
+        width: 250px;
+    }
+    #five {
+        height: 200px;
+        width: 250px;
+    }
     
   
     
-    }
+    
   }
 
   @media screen and (max-width: 640px) {
     
     body {
-      background-color: #300;
+     
     }
   
     

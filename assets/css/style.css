@@ -329,8 +329,6 @@ button {
         margin: 0 auto;
     }
     #one {
-        background-image: url(../images/port01.png);
-        
         float: left;
         height: 200px;
         width: 250px;
@@ -363,10 +361,48 @@ button {
   }
 
   @media screen and (max-width: 640px) {
-    
-    body {
-     
-    }
+     h1{
+         width:100%;
+         text-align: center;
+         padding: 5px 0 5px 0;
+     }
+   nav{
+       margin: 0 auto;
+       display: inline-block;
+       width: 100%;
+       text-align: center;
+       padding: 10px 0;
+   }
+   #one {
+    width: 100%;
+}
+#two {
+    left: 18px;
+    width: 100%;
+}
+#three {
+   
+    width: 100%;
+}
+
+#four {
+    left: 18px;
+    width: 100%;
+}
+#five {
+
+    width: 100%;
+}
+footer {
+    display: none;
+}
+#bio-image{
+    width: 95%;
+    height: 340px;
+}
+.main{
+    height: 100%;
+}
   
     
     

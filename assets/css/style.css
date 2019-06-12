@@ -98,6 +98,13 @@ footer {
     width: 100%;
     padding: 15px 0;
 }
+h4 a {
+    color: #ffffff;
+}
+h4 a:hover {
+    color: #4aaaa5;
+    
+}
 
 a {
     color:#999999;
@@ -151,7 +158,7 @@ p {
     width: 260px;
 }
 #two {
-    background-image: url(../images/port04.png);
+    background-image: url(../images/crystal_01\ copy.png);
     background-size: 100%;
     position: relative;
     
@@ -260,14 +267,14 @@ button {
         padding: 5px 0;
     }
     #one {
-        background-image: url(../images/port01.png);
+       
         background-size: 100%;
         float: left;
        
         width: 180px;
     }
     #two {
-        background-image: url(../images/port04.png);
+       
         background-size: 100%;
         position: relative;
         right:100px;
@@ -277,7 +284,7 @@ button {
       
     }
     #three {
-        background-image: url(../images/port03.png);
+       
         background-size: 100%;
         clear: both;
         background-color: #666666;
@@ -289,7 +296,6 @@ button {
     }
     
     #four {
-        background-image: url(../images/port02.png);
         background-size: 100%;
         position: relative;
         float: right;
@@ -302,7 +308,6 @@ button {
     
     }
     #five {
-        background-image: url(../images/port05.png);
         background-size: 100%;
         clear: both;
         background-color: #666666;

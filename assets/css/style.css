@@ -96,7 +96,7 @@ footer {
     border-top: 8px solid #4aaaa5;
     text-align: center;
     width: 100%;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 h4 a {
     color: #ffffff;
@@ -138,6 +138,7 @@ p {
 }
 
 .main {
+    overflow: auto;
     border: 2px solid #dddddd;
     max-width: 920px;
     height: 70%;
@@ -194,7 +195,7 @@ p {
 
 }
 #five {
-    background-image: url(../images/port05.png);
+    background-image: url(../images/trian.png);
     background-size: 100%;
     clear: both;
     background-color: #666666;

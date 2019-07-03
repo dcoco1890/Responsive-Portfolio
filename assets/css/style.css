@@ -17,6 +17,7 @@ html {
     
 }
 body {
+    margin: 0;
     height: 100%;
     background-image:url("../images/pattern.png");
     /* This is how I got the background image to be below the header. It starts 60 px from 
@@ -84,13 +85,14 @@ section{
     overflow: hidden;
    
 }
-
+footer, .push {
+    height: 50px;
+}
 
 footer {
     /*This footer sucks. If you resize the page and text flows after it, it will stay in place
     while you scroll. Will work to fix but at least it's sticky*/
-    position: absolute;
-    bottom: 0;
+  
     margin: 0 auto;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
@@ -136,13 +138,17 @@ p {
     padding-right: 2em;
     padding-bottom: 5px;
 }
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
 
 .main {
     overflow: auto;
     border: 2px solid #dddddd;
     max-width: 920px;
     height: 70%;
-    margin: 0 auto;
+   margin: 0 auto;
     background-color: #ffffff;
     padding:25px 30px 70px 30px;
 }

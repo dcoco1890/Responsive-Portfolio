@@ -1,34 +1,48 @@
-h1, h2, h3, h4, p, form, header, section, footer, article,body {
+h1,
+h2,
+h3,
+h4,
+p,
+form,
+header,
+section,
+footer,
+article,
+body {
     margin: 0;
     padding: 0;
-
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-footer,p,form {
+footer,
+p,
+form {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
 
 html {
     height: 100%;
-    
 }
+
 body {
     margin: 0;
     height: 100%;
-    background-image:url("../images/pattern.png");
+    background-image: url("../images/pattern.png");
     /* This is how I got the background image to be below the header. It starts 60 px from 
     the top because the header is 60 px. With just repeat x it didnt fill the  page.*/
     background-position: 0px 60px;
     background-size: cover;
     background-repeat: repeat-x;
-    
-    
 }
-
 
 header {
     /* overflow keeps the h1 and nav from spilling or something. breaks without it so don't remove */
@@ -36,8 +50,8 @@ header {
     margin: auto auto;
     max-width: 960px;
     background-color: #ffffff;
-
 }
+
 h1 {
     color: #ffffff;
     position: relative;
@@ -48,25 +62,25 @@ h1 {
     float: left;
 }
 
-h1:hover{
+h1:hover {
     background-color: hotpink;
 }
 
 h2 {
-    
     padding: 10px 0 25px 0;
     color: #4aaaa5;
 }
 
 h4 {
     color: #ffffff;
-    padding:8px 40px;
+    padding: 8px 40px;
     background-color: #4aaaa5;
     max-width: 100%;
     text-align: center;
-    margin-top:100px;
+    margin-top: 100px;
     border-radius: 9px;
 }
+
 h4:hover {
     background-color: hotpink;
 }
@@ -80,19 +94,19 @@ nav {
     right: 5px;
 }
 
-section{
+section {
     max-height: 100%;
     overflow: hidden;
-   
 }
-footer, .push {
+
+footer,
+.push {
     height: 50px;
 }
 
 footer {
     /*This footer sucks. If you resize the page and text flows after it, it will stay in place
     while you scroll. Will work to fix but at least it's sticky*/
-  
     margin: 0 auto;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
@@ -100,36 +114,38 @@ footer {
     width: 100%;
     padding: 10px 0;
 }
+
 h4 a {
     color: #ffffff;
 }
+
 h4 a:hover {
     color: #4aaaa5;
-    
 }
 
 a {
-    color:#999999;
+    color: #999999;
     text-decoration: none;
     font-size: 15px;
 }
+
 a:hover {
     color: hotpink;
 }
 
 p {
-    margin:5px;
+    margin: 5px;
 }
-
 
 #lineBr {
     background-color: #cccccc;
-    height:2px;
+    height: 2px;
     margin-bottom: 30px;
 }
+
 #line {
     background-color: #cccccc;
-    height:2px;
+    height: 2px;
     margin-bottom: 30px;
 }
 
@@ -138,6 +154,7 @@ p {
     padding-right: 2em;
     padding-bottom: 5px;
 }
+
 .wrapper {
     min-height: 100%;
     margin-bottom: -50px;
@@ -148,14 +165,14 @@ p {
     border: 2px solid #dddddd;
     max-width: 920px;
     height: 70%;
-   margin: 0 auto;
+    margin: 0 auto;
     background-color: #ffffff;
-    padding:25px 30px 70px 30px;
+    padding: 25px 30px 70px 30px;
 }
+
 #ports {
-    padding:300px 450px;
+    padding: 300px 450px;
 }
-    
 
 #one {
     background-image: url(../images/hang.png);
@@ -164,17 +181,18 @@ p {
     height: 170px;
     width: 260px;
 }
+
 #two {
     background-image: url(../images/crystal_01\ copy.png);
     background-size: 100%;
     position: relative;
-    
-    right:300px;
+    right: 300px;
+    background-color: #666666;
     float: right;
     height: 170px;
     width: 260px;
-  
 }
+
 #three {
     background-image: url(../images/spLogo.png);
     background-size: 100%;
@@ -183,8 +201,6 @@ p {
     float: left;
     height: 170px;
     width: 260px;
-   
-
 }
 
 #four {
@@ -196,10 +212,8 @@ p {
     right: 300px;
     height: 170px;
     width: 260px;
-    
-   
-
 }
+
 #five {
     background-image: url(../images/trian.png);
     background-size: 100%;
@@ -208,15 +222,25 @@ p {
     float: left;
     height: 170px;
     width: 260px;
-    
+}
 
+#six {
+    background-image: url(../images/kisspng-stock-photography-detective-clip-art-illustration-dmitry-nazarenko-2-17-5be981e9ca5a52.9264880915420298018288.jpg.png);
+    background-size: 100%;
+    background-color: #666666;
+    position: relative;
+    float: right;
+    background-color: #666666;
+    right: 300px;
+    height: 170px;
+    width: 260px;
 }
+
 article {
-  
     overflow: auto;
-    margin:0 10px 30px 10px;
-    
+    margin: 0 10px 30px 10px;
 }
+
 label {
     color: #666666;
 }
@@ -230,6 +254,7 @@ label {
     width: 100%;
     height: 2em;
 }
+
 #msg {
     width: 100%;
     height: 15em;
@@ -239,9 +264,8 @@ label {
 
 input {
     padding: 5px;
-    
-    
 }
+
 button {
     background-color: #4aaaa5;
     color: #ffffff;
@@ -252,92 +276,68 @@ button {
     cursor: pointer;
 }
 
+
 /* New media tags */
+
 @media screen and (max-width: 980px) {
-    
-    header {
-        
-    }
-    body {
-      
-    }
+    header {}
+    body {}
     .main {
         float: left;
         width: 60%;
         padding-bottom: 50px;
         margin-left: 15px;
     }
-    h1{
-        
-    }
+    h1 {}
     footer {
         padding: 5px 0;
     }
     #one {
-       
         background-size: 100%;
         float: left;
-       
         width: 180px;
     }
     #two {
-       
         background-size: 100%;
         position: relative;
-        right:100px;
+        right: 100px;
         float: right;
-       
         width: 180px;
-      
     }
     #three {
-       
         background-size: 100%;
         clear: both;
         background-color: #666666;
         float: left;
-        
         width: 180px;
-       
-    
     }
-    
     #four {
         background-size: 100%;
         position: relative;
         float: right;
         background-color: #666666;
         right: 100px;
-       
         width: 180px;
-        
-       
-    
     }
     #five {
         background-size: 100%;
         clear: both;
         background-color: #666666;
         float: left;
-        
         width: 180px;
-        
-    
     }
-  
-    
-  }
+}
+
 @media screen and (max-width: 768px) {
-    
     h2 {
         padding: 0 0 5px 0;
     }
-    #lineBr{
-        margin-bottom:10px;
+    #lineBr {
+        margin-bottom: 10px;
     }
     .main {
         padding-bottom: 90px;
-        width:90%;
+        width: 90%;
         margin: 0 auto;
     }
     #one {
@@ -346,9 +346,7 @@ button {
         width: 250px;
     }
     #two {
-     
-        right:50px;
-      
+        right: 50px;
         height: 200px;
         width: 250px;
     }
@@ -356,7 +354,6 @@ button {
         height: 200px;
         width: 250px;
     }
-    
     #four {
         right: 50px;
         height: 200px;
@@ -366,56 +363,46 @@ button {
         height: 200px;
         width: 250px;
     }
-    
-  
-    
-    
-  }
-
-  @media screen and (max-width: 640px) {
-     h1{
-         width:100%;
-         text-align: center;
-         padding: 5px 0 5px 0;
-     }
-   nav{
-       margin: 0 auto;
-       display: inline-block;
-       width: 100%;
-       text-align: center;
-       padding: 10px 0;
-   }
-   #one {
-    width: 100%;
-}
-#two {
-    left: 18px;
-    width: 100%;
-}
-#three {
-   
-    width: 100%;
 }
 
-#four {
-    left: 18px;
-    width: 100%;
+@media screen and (max-width: 640px) {
+    h1 {
+        width: 100%;
+        text-align: center;
+        padding: 5px 0 5px 0;
+    }
+    nav {
+        margin: 0 auto;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    #one {
+        width: 100%;
+    }
+    #two {
+        left: 18px;
+        width: 100%;
+    }
+    #three {
+        width: 100%;
+    }
+    #four {
+        left: 18px;
+        width: 100%;
+    }
+    #five {
+        width: 100%;
+    }
+    footer {
+        display: none;
+    }
+    #bio-image {
+        width: 95%;
+        height: 340px;
+    }
+    .main {
+        height: 100%;
+    }
 }
-#five {
-
-    width: 100%;
-}
-footer {
-    display: none;
-}
-#bio-image{
-    width: 95%;
-    height: 340px;
-}
-.main{
-    height: 100%;
-}
-  
-    
-    
-  }
